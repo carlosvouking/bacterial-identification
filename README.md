@@ -7,7 +7,7 @@ The program inputs the npz file containing the images, performs a train test spl
 train and test set, trains the convolutional neural network and finally tests the network outputing the accuracy.
 
 # Example images
-The images were taken by the Parthasarathy lab at the University of Oregon using light sheet microscopy and are of objects detected from 3D image stacks of larval zebrafish. The images are either bacteria, or not bacteria. 
+The images were taken by the Parthasarathy lab at the University of Oregon using light sheet microscopy and are of objects detected from 3D image stacks of larval zebrafish. Sloppy segmentation of the gut followed by a difference of gaussians blob detection was used to generate the images. The images are classified as either bacteria, or not bacteria. 
 
 # How to use the code
 The code requires the python packages tensorflow, sklearn, numpy and matplotlib to be installed. It is also necessary to make sure
